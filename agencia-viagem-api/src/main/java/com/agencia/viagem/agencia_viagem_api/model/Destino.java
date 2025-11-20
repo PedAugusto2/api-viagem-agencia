@@ -1,5 +1,8 @@
 package com.agencia.viagem.agencia_viagem_api.model;
 
+import jakarta.persistence.*;
+import java.util.List;
+
 public class Destino {
     private Long id;
     private String nome;
@@ -9,6 +12,7 @@ public class Destino {
     private int numeroAvaliacoes;
     private double mediaAvaliacao;
     
+
     public Destino() {
     }
     
